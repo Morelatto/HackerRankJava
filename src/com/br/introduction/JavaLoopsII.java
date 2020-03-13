@@ -1,4 +1,4 @@
-package com.br;
+package com.br.introduction;
 
 import java.util.Scanner;
 

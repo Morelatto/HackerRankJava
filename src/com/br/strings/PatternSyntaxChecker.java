@@ -11,9 +11,8 @@ public class PatternSyntaxChecker {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
         ArrayList<String> patterns = new ArrayList<>();
-        while (testCases > 0) {
+        while (testCases-- > 0) {
             patterns.add(in.nextLine());
-            testCases--;
         }
 
         for (String pattern : patterns) {
